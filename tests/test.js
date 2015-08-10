@@ -15,7 +15,7 @@ module.exports = {
       browser
 	   .url('http://172.27.59.18:9080/EmployeeApplication/jsp/add.jsp')
 	   .waitForElementVisible('body', 1000)
-      .setValue('input[name=code]', '2002')
+      .setValue('input[name=code]', '2005')
 	  .setValue('input[name=name]', 'pratik1')
 	  .setValue('input[name=city]', 'pune18')
       .waitForElementVisible('button[id=SubmitEmployee]', 1000)
